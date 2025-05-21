@@ -127,7 +127,7 @@ class JogoQuadrados {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite o tamanho do tabuleiro (número de pontos por lado): ");
         int size = scanner.nextInt();
-        scanner.nextLine(); // consumir quebra de linha
+        scanner.nextLine(); 
 
         JogoQuadrados jogo = new JogoQuadrados(size);
 
